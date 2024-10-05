@@ -73,5 +73,5 @@ It's a video simple video converter based on FFMPEG and Moviepy that will allow 
 
 It's very easy to use, just click the load files button to load your sources, select an output folder and the output settings that fits more your usecase and launch the conversion.
 
-## I want to thank you / contribute to DaVinci Helper, what can I do ?
+## I want to thank you / contribute to DaVinci Helper development, what can I do ?
 If you want to contribute to the development of [DaVinci Helper](https://github.com/H3rz3n/davinci-helper) you can help us [testing the GPU drivers](https://github.com/H3rz3n/davinci-helper/discussions), translating the app or [making a donation](https://www.paypal.com/donate/?hosted_button_id=CPCG2RFAV82T8) to support the work needed for the maintenance and the continue update to keep up with the latest DaVinci and Fedora versions.
