@@ -7,7 +7,7 @@ In this guide we will cover the download and the installation of DaVinci Resolve
 The most simple and secure way to donwload DaVinci Resolve is from the [manufacter's website](https://www.blackmagicdesign.com/it/products/davinciresolve/).  
 Before downloading let's see the download options that we have :
 - **DaVinci Resolve Studio :** The Studio version all the features of DaVinci Resolve Free but with some additional effects, codecs support and the support for multiple GPU transcoding and NVENC transcoding.
-- **DaVinci Resolve Free :** The Free version is the complete version DaVinci Resolve that does not require any license, but lacks of the support of the exclusive features of the Studio version.
+- **DaVinci Resolve Free :** The Free version is the complete version DaVinci Resolve that does not require any license, but lacks of the support of common codecs like AAC and H264/H265 (used by most cameras and smartphone) requiring to convert the videos and audios in one of few supported codecs.
 
 Regardless of the version we selected we need to donwload the corresponding Linux version. To complete the download we need to compile a small form, *but we can write here fake datas if we don't want to give to much information to BlackmagicDesign*.  
 
@@ -32,16 +32,46 @@ sudo dnf install -y davinci-helper
 
 
 ## How use DaVinci Helper to correctly install and patch DaVinci Resolve
-Now that we have DaVinci Resolve and the right tool to assist use, let's open DaVinci Helper. We need to start from the first section `Install missing dependencies` and click the start button to launch the dependecies check.
+Now that we have DaVinci Resolve and the right tool to assist use, let's open DaVinci Helper. 
+
+### Prepare the system
+We need to start from the first section of Davinci Helper called `Install missing dependencies` and click the start button to launch the dependecies check.
+
 <p align="center">
   <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/02.png?raw=true" alt="Banner"/>
 </p>
-If the procedure terminates without any errors we can now install DaVinci Resolve. The DaVinci Resolve installer file we downloaded previously need to be started with some flags to correcly launch in Fedora Linux. The most simple way to do that is to use the second section of DaVinci Helper called `Launch DaVinci Resolve installer`.
+
+### Install DaVinci Resolve
+If the procedure has terminated without any errors we can now proceed to install DaVinci Resolve. The DaVinci Resolve installer file we downloaded previously need to be started with some flags to correcly launch in Fedora Linux.  
+The most simple way to do that is to use the second section of DaVinci Helper called `Launch DaVinci Resolve installer`. We need to load the `.zip` file downloaed and then click the start button to launch the DaVinci Resolve installation wizard.
+
 <p align="center">
   <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/03.png?raw=true" alt="Banner"/>
 </p>
 
+### Apply the necessary post installation fix
+After we completed the installation we need to move in a secure some problematic libraries that DaVinci installs because they will cause errors during the DaVinci Resolve start up. Let's go on the third section of Davinci Helper called `Apply post installation fix` and click the start button to fix the DaVinci Resolve dependecies folder.
 
+<p align="center">
+  <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/04.png?raw=true" alt="Banner"/>
+</p>
 
+### Optional : Check the GPU drivers and if the GPU is supported
+If the procedure terminates without any errors we have finished to install DaVinci Resolve, but if you are not certain if you are using the correct GPU drivers or if your GPU is supported by DaVinci Resolve, we can go to the fourth section of Davinci Helper called `Check and install GPU drivers` and click the start button to check that.
 
-#
+<p align="center">
+  <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/05.png?raw=true" alt="Banner"/>
+</p>
+
+### Optional : Easily convert your video for DaVinci Resolve Free
+The only problem of DaVinci Resolve Free on Linux is his lack of supports for common codecs like H264/H265 and AAC due to licensing problems. The most simple way to make your videos compatible with DaVinci Resolve Free is to use the fith section of Davinci Helper called `DaVinci Video Converter`.  
+It's a video simple video converter based on FFMPEG and Moviepy that will allow to use simple (but complete) setting to convert your files in a format compatible with DaVinci Resolve Free.
+
+<p align="center">
+  <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/06.png?raw=true" alt="Banner"/>
+</p>
+
+It's very easy to use, just click the load files button to load your sources, select an output folder and the output settings that fits more your usecase and launch the conversion.
+
+## I want to thank you / contribute to DaVinci Helper, what can I do ?
+If you want to contribute to the development of [DaVinci Helper](https://github.com/H3rz3n/davinci-helper) you can help us [testing the GPU drivers](https://github.com/H3rz3n/davinci-helper/discussions), translating the app or [making a donation](https://www.paypal.com/donate/?hosted_button_id=CPCG2RFAV82T8) to support the work needed for the maintenance and the continue update to keep up with the latest DaVinci and Fedora versions.
