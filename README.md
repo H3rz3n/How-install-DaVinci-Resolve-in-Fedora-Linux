@@ -1,0 +1,1 @@
+# How-install-DaVinci-Resolve-in-Fedora-Linux
