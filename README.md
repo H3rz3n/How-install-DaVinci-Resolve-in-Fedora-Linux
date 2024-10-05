@@ -5,7 +5,7 @@ DaVinci Resolve is one of the post popular video editing software and, unlike Ad
 In this guide we will cover the download and the installation of DaVinci Resolve on Fedora Linux using DaVinci Helper, an app I developed to make this process easier for the Linux novice users.
 
 ## How download DaVinci Resolve
-
+The most simple and secure way to donwload DaVinci Resolve is from the manufacter's website. Before downloading let's see the download options that we have :
 
 
 ## How install DaVinci Helper in Fedora 40-41
