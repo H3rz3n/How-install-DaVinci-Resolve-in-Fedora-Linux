@@ -36,6 +36,12 @@ Now that we have DaVinci Resolve and the right tool to assist use, let's open Da
 <p align="center">
   <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/02.png?raw=true" alt="Banner"/>
 </p>
+If the procedure terminates without any errors we can now install DaVinci Resolve. The DaVinci Resolve installer file we downloaded previously need to be started with some flags to correcly launch in Fedora Linux. The most simple way to do that is to use the second section of DaVinci Helper called `Launch DaVinci Resolve installer`.
+<p align="center">
+  <img src="https://github.com/H3rz3n/davinci-helper/blob/main/screenshot/03.png?raw=true" alt="Banner"/>
+</p>
+
+
 
 
 #
