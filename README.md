@@ -80,3 +80,20 @@ It's very easy to use, just click the load files button to load your sources, se
 
 ## What you can do to contribute to DaVinci Helper development ?
 If you want to contribute to the development of [DaVinci Helper](https://github.com/H3rz3n/davinci-helper) you can help us [testing the GPU drivers](https://github.com/H3rz3n/davinci-helper/discussions), translating the app or [making a donation](https://www.paypal.com/donate/?hosted_button_id=CPCG2RFAV82T8) to support the work needed for the maintenance and the continue update to keep up with the latest DaVinci and Fedora versions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tags : davinci resolve; davinci; resolve; linux; davinci resolve linux; davinci resolve fedora; davinci fedora; how install davinci linux; how install davinci fedora; how fix davinci linux; how fix davinci fedora; davinci fedora error; davinci linux error; fedora error; fedora davinci error;
