@@ -6,7 +6,7 @@
 
 DaVinci Resolve is one of the most popular video editing software and, unlike Adobe Premiere, it supports Linux with a native application. By default, DaVinci Resolve officially supports only the Rocky Linux distribution, but with some tricks it's possible to install it in other distrution of the RHEL family, like Fedora Linux.  
 
-In this guide will be covered the download and the installation of DaVinci Resolve on Fedora Linux using DaVinci Helper, an app I developed to make this process easier for the Linux novice users.
+In this guide will be covered the download and the installation of DaVinci Resolve on Fedora Linux using [DaVinci Helper](https://github.com/H3rz3n/davinci-helper), an app I developed to make this process easier for the Linux novice users.
 
 ## How download DaVinci Resolve
 The most simple and secure way to download DaVinci Resolve is from the [manufacter's website](https://www.blackmagicdesign.com/it/products/davinciresolve/).  
