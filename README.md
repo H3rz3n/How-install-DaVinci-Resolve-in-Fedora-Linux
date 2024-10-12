@@ -1,4 +1,4 @@
-# How install DaVinci Resolve in Fedora Linux
+# How install DaVinci Resolve in Fedora and Nobara Linux
 
 <p align="center">
   <img src="/Banner.png" alt="Banner"/>
@@ -20,7 +20,7 @@ Personally, I would recommend you trying the Free version and buying the Studio 
 
 
 
-## How install DaVinci Helper in Fedora 40-41
+## How install DaVinci Helper in Fedora 40-41 and Nobara 40
 The most simple way to install and keep [DaVinci Helper](https://github.com/H3rz3n/davinci-helper) updated is by adding the project COPR repository to your repository list and simply install it with the DNF packet manager.
 
 ### Adding the project COPR repository
